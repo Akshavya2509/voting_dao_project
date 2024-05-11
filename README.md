@@ -23,40 +23,44 @@ This repository uses the recommended structure for a Soroban project:
 # VotingContract Smart Contract
 This project contains a smart contract written in Rust using the soroban_sdk for the Soroban blockchain platform. The smart contract implements a voting system where users can cast votes for candidates, and the contract keeps track of total votes and votes per candidate.
 
-> Features
+- Features
+
 Allows users to register and vote for candidates.
 Maintains a record of total votes and votes per candidate.
 Provides functions to retrieve voting statistics.
 
 # Getting Started
-> Prerequisites
+- Prerequisites
 Before running or testing this smart contract, ensure you have the following installed:
 
 Rust and Cargo (Rust's package manager)
 Soroban SDK
 Installation
-Clone this repository to your local machine:
+
+- Clone this repository to your local machine:
 ```
 git clone <repository_url>
 ```
-Navigate to the project directory:
+- Navigate to the project directory:
 ```
 cd VotingContract
 ```
 # Usage
 To use this smart contract, follow these steps:
 
-Import the Contract: Include the VotingContract in your Soroban application.
+- Import the Contract:
 
-> Register Voters:
+Include the VotingContract in your Soroban application.
+
+- Register Voters:
 
 Use the register_voter function to register users before allowing them to vote.
 
-> Cast Votes:
+- Cast Votes:
 
 Use the vote function to allow registered users to cast their votes for specific candidates.
 
-Testing
+- Testing
 To test the smart contract, run the following command:
 
 ```
