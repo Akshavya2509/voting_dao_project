@@ -6,7 +6,7 @@ This repository uses the recommended structure for a Soroban project:
 ```text
 .
 ├── contracts
-│   └── hello_world
+│   └── voting_dao
 │       ├── src
 │       │   ├── lib.rs
 │       │   └── test.rs
